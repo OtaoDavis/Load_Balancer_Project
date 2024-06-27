@@ -45,7 +45,7 @@ Ensure you have the following installed on your machine:
     sudo docker run hello-world
     ```
 
-### Setting Up the Project
+### Setting Up the Project Manually
 
 1. **Clone the repository**:
     ```sh
