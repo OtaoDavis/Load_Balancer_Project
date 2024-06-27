@@ -3,7 +3,7 @@ from flask import Flask, jsonify, request
 from subprocess import Popen, PIPE
 
 from consistent_hash import ConsistantHash
-from utils import (
+from load_balancer.utils import (
     errHostnameListInconsistent,
     errInvalidRequest,
     get_container_rm_command,

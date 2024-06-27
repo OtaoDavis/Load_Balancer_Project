@@ -1,4 +1,4 @@
-from utils import get_random_number
+from load_balancer.utils import get_random_number
 
 class hash_func:
     slots: int
