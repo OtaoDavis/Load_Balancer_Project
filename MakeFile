@@ -1,0 +1,30 @@
+# Makefile
+
+# Variables
+DOCKER_COMPOSE=docker_compose
+
+# Targets
+all: build up
+
+# Build the Docker images
+build:
+	$(DOCKER_COMPOSE) build
+
+# Start the containers
+up:
+	$(DOCKER_COMPOSE) up -d
+
+# Stop the containers
+down:
+	$(DOCKER_COMPOSE) down
+
+# Restart the containers
+restart: down up
+
+# Remove all stopped containers, unused networks, images, and optionally, volumes
+clean:
+	$(DOCKER_COMPOSE) down --rmi all --volumes --remove-orphans
+
+# Show the logs
+logs:
+	$(DOCKER_COMPOSE) logs -f
