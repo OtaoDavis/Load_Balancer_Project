@@ -1,11 +1,11 @@
 FROM python:3.11.5 as base
 
-WORKDIR /application
+WORKDIR /app
 
 RUN pip install flask
 
-COPY ./server.py /application
+COPY ./server.py /app
 
-ENTRYPOINT ["python", "/application/server.py"]
+ENTRYPOINT ["python", "/app/server.py"]
 
 EXPOSE 5000
