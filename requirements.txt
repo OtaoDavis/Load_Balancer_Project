@@ -1,0 +1,6 @@
+flask
+requests
+asyncio
+httpx
+Flask-APScheduler
+matplotlib
