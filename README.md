@@ -58,6 +58,29 @@ Ensure you have the following installed on your machine:
     docker-compose up -d
     ```
 
+## For automated deployment of the project
+Navigate to the project root directory where your docker-compose.yml and Makefile are located and run the following commands:
+
+# Build the Docker images
+make build
+
+# Start the containers
+make up
+
+# To view logs
+make logs
+
+# To stop the containers
+make down
+
+# To clean up everything
+make clean
+
+# To restart the containers
+make restart
+
+
+
 ## Running the Performance Tests
 
 To run the performance tests and generate the charts, follow these steps:
