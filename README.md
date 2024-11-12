@@ -139,7 +139,7 @@ The results demonstrate that as the number of servers increases, the hash functi
 
 The chart shows that server 2 handled more than 50% of the requests, indicating an uneven distribution.
 
-With **server_count = 2** servers, a line chart revealed that server 1 handled over 80% of the requests.
+With **server_count = 2** servers, the chart revealed that server 1 handled over 80% of the requests.
 
 ![n2_mod](charts/n2_mod.png)
 
