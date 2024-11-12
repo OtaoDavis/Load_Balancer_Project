@@ -116,7 +116,7 @@ When launched on **server_count = 2** server containers, the bar chart showed th
 ![n2](charts/n2.png)
 
 
-For **server_count = 4** servers, the chart indicates that servers 2 and 3 handled over 80% of the requests collectively.
+For **server_count = 4** servers, the chart indicates that servers 1 and 2 handled over 80% of the requests collectively.
 
 ![n4](charts/n4.png)
 
@@ -143,7 +143,7 @@ With **server_count = 2** servers, the chart revealed that server 2 handled over
 
 ![n2_mod](charts/n2_mod.png)
 
-When launched on **server_count = 4** server containers, the chart below shows that servers 1 and 2 handled over 80% of the requests collectively.
+When launched on **server_count = 4** server containers, the chart below shows that servers 2 and 3 handled over 80% of the requests collectively.
 
 ![n4_mod](charts/n4_mod.png)
 
